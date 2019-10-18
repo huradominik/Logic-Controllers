@@ -1,0 +1,176 @@
+timestamp=1566313132915
+
+[~A]
+LastVerilogToplevel=system_control_TestBench
+ModifyID=32
+Version=74
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/bit_cpu.v=0*119240*120981
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/bit_cpu.v_central_unit.v_central_unit_TestBench.v_data_word_memory.v_de_mux.v_DMA_ch_testBench.v_DMA_channel.v_image_fifo.v_image_memory.v_mplc_logic_il.v_program_bit_memory.v_program_word_memory.v_scheduler_fifo.v_semafor.v_semafor_bit_memory.v_semafor_unit.v_system_control.v_system_control_TestBench.v_word_cpu.v=0*23556*36484
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/bit_cpu.v_data_word_memory.v_de_mux.v_DMA_ch_testBench.v_DMA_channel.v_image_fifo.v_image_memory.v_mplc_logic_il.v_program_bit_memory.v_program_word_memory.v_scheduler_fifo.v_semafor.v_semafor_bit_memory.v_semafor_unit.v_system_control.v_system_control_TestBench.v_word_cpu.v=0*56748*68868
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/bit_cpu.v_data_word_memory.v_de_mux.v_DMA_ch_testBench.v_DMA_channel.v_image_fifo.v_image_memory.v_mplc_logic_il.v_program_bit_memory.v_program_word_memory.v_scheduler_fifo.v_semafor.v_semafor_bit_memory.v_semafor_unit.v_system_control.v_system_control_TestBench.v_word_cpu.v_central_unit.v_central_unit_TestBench.v=0*81769*93977
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/central_unit.v=0*107724*109694
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/central_unit_TestBench.v=0*72991*73370
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/image_memory.v=0*122205*123118
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/program_bit_memory.v=0*132965*134157
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/program_word_memory.v=0*135516*136580
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/system_control.v=0*124446*125537
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/system_control_TestBench.v=0*111121*113215
+d:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/word_cpu.v=0*126873*129095
+
+[$root]
+A/$root=22|||1*396692
+BinI32/$root=3*290222
+SLP=3*290326
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c92162f2dcc3ef09c3b2fd1fef1eb5c13b6f3
+
+[DMA_ch_testBench]
+A/DMA_ch_testBench=22|./../src/DMA_ch_testBench.v|3|1*246705
+BinI32/DMA_ch_testBench=3*183980
+R=./../src/DMA_ch_testBench.v|3
+SLP=3*185170
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|597d37be8a23202aad459a4206ff1246a2f945ac23f077b7a2d1e04f47c2e62231b2aeee992d7c6e747c3510c24634b6
+
+[DMA_channel]
+A/DMA_channel=22|./../src/DMA_channel.v|3|1*252558
+BinI32/DMA_channel=3*189019
+R=./../src/DMA_channel.v|3
+SLP=3*189633
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|1e794f4f73afdf6d8011a8c8df3ad3ea9b55052dfc701e026fab5146054e8ed4b49a9f0670c420b3df984701e23f5334
+
+[bit_cpu]
+A/bit_cpu=22|./../src/bit_cpu.v|5|1*370541
+BinI32/bit_cpu=3*257881
+R=./../src/bit_cpu.v|5
+SLP=3*261874
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|37cdd90501699cf5b7dbdfeda535a05226527262ddaa47cb266f3a3c4d9b973add6e705f972df15afb66afa4644fb8ad
+
+[central_unit]
+A/central_unit=22|./../src/central_unit.v|5|1*341660
+BinI32/central_unit=3*243027
+R=./../src/central_unit.v|5
+SLP=3*245096
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e29619762a5126047e7fbd88351746719a43d4f297f857e590530f78ac3667e3b1c4c2db45e8e7638c81b0eb1f9b6eb7
+
+[central_unit_TestBench]
+A/central_unit_TestBench=22|./../src/central_unit_TestBench.v|5|1*99254
+BinI32/central_unit_TestBench=3*82703
+R=./../src/central_unit_TestBench.v|5
+SLP=3*83945
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|d1ef25a1b651eaaf91b367fe3b9fdda14749e4306ae00cb245a7724e0798ad6aecaa4e992201d03bf619e4d90e941633
+
+[data_word_memory]
+A/data_word_memory=22|./../src/data_word_memory.v|5|1*243299
+BinI32/data_word_memory=3*180734
+R=./../src/data_word_memory.v|5
+SLP=3*182095
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|482ebb7dabbdd0741cc44f583e38386bf34e4834aaae217fba87e45f4aec3df3c4538c7e686b898106ff7347cc67e6b3
+
+[de_mux]
+A/de_mux=22|./../src/de_mux.v|5|1*245552
+BinI32/de_mux=3*182767
+R=./../src/de_mux.v|5
+SLP=3*183358
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|573f9232c5666705c01dff71413a54f85cafabc827c561390f1f80c904dd7233
+
+[image_fifo]
+A/image_fifo=22|./../src/image_fifo.v|4|1*253703
+BinI32/image_fifo=3*190063
+R=./../src/image_fifo.v|4
+SLP=3*191440
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|459e571d0cd741f064a3d923c87fedf5bdf4f6fb2f6d188f4c7dbb862ef57c2494880a821cc825e6fc4156709fff1cf2
+
+[image_memory]
+A/image_memory=22|./../src/image_memory.v|3|1*375634
+BinI32/image_memory=3*264646
+R=./../src/image_memory.v|3
+SLP=3*266418
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|d3c770ae30efaf31fd97502730c81ba85d9b63a18f7b43a04725005378686f6f32d6e0b8e0482d296ce2e02b28095b7f
+
+[program_bit_memory]
+A/program_bit_memory=22|./../src/program_bit_memory.v|5|1*393365
+BinI32/program_bit_memory=3*285744
+R=./../src/program_bit_memory.v|5
+SLP=3*288476
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|1e4830a3b9f410139dc648dbf617a85362ae9530e1fc75d5ef77aab11c4b1dad394cb6ebeae5bc7da9305a0e55816259
+
+[program_word_memory]
+A/program_word_memory=22|./../src/program_word_memory.v|5|1*397114
+BinI32/program_word_memory=3*290394
+R=./../src/program_word_memory.v|5
+SLP=3*292881
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|44d3732bf88214aaab56ca32cd8164b0ccb5f6b6e6573506b6a6514cbb263f06d8d0b0f547f0caf090bbd0fa6d91d71c
+
+[scheduler_fifo]
+A/scheduler_fifo=22|./../src/scheduler_fifo.v|4|1*261987
+BinI32/scheduler_fifo=3*199651
+R=./../src/scheduler_fifo.v|4
+SLP=3*201246
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b468723218a8e83b34ccf43c815595084bdbab9b1b7cd957c149ca5e4758d5898a38bbf432644cac5aa006ae31d50894
+
+[semafor]
+A/semafor=22|./../src/semafor.v|4|1*264537
+BinI32/semafor=3*201961
+R=./../src/semafor.v|4
+SLP=3*202911
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c00a16ce726e50e298a1b92c799aacce26527262ddaa47cb266f3a3c4d9b973a828974ba23137512b1af7d4f8df9c63e
+
+[semafor_bit_memory]
+A/semafor_bit_memory=22|./../src/semafor_bit_memory.v|5|1*266794
+BinI32/semafor_bit_memory=3*203488
+R=./../src/semafor_bit_memory.v|5
+SLP=3*208027
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b932b6be0963f6adef03411944025f9d1912fe7a3cf5dc5585b9c9b408f72c7f52fc3a670ae5cede1fdcc70f72dde5dd
+
+[semafor_unit]
+A/semafor_unit=22|./../src/semafor_unit.v|6|1*284806
+BinI32/semafor_unit=3*213567
+R=./../src/semafor_unit.v|6
+SLP=3*214591
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f028a8d027f3b6704231b028883fceb21b7c2bb641e9a7d21fefa1b3a9dea1d0d527972ea41f0b1f3a8847e5b4b2817b
+
+[system_control]
+A/system_control=22|./../src/system_control.v|3|1*379016
+BinI32/system_control=3*267886
+R=./../src/system_control.v|3
+SLP=3*270336
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f7ec3016abcd562dea344a13e5cf2d3076f8b94caa36e99550a90d84244c277aeb01a228e1276bcf008970fdf4eed3d4
+
+[system_control_TestBench]
+A/system_control_TestBench=22|./../src/system_control_TestBench.v|5|1*352335
+BinI32/system_control_TestBench=3*246174
+R=./../src/system_control_TestBench.v|5
+SLP=3*248933
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f7ec3016abcd562dea344a13e5cf2d30abb734a6a3c0116808603b6ae7da96c4951b9649ad3c4c9a38d2ebe8850fa7297dfabc58ec15b071fd8a6d2f3dc82db0
+
+[word_cpu]
+A/word_cpu=22|./../src/word_cpu.v|4|1*382740
+BinI32/word_cpu=3*271771
+R=./../src/word_cpu.v|4
+SLP=3*277398
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6029208e91362b0a5b0a3a210e337a9b3d6ac2656ee8a4b7c6159d96b71f53df1b894db0ef298c586580e61d9abb04fd
+
+[~MFT]
+0=4|0plc_cpu.mgf|136580|41739
+1=4|1plc_cpu.mgf|397114|313763
+3=8|3plc_cpu.mgf|292881|230124
+
+[~U]
+$root=12|0*134749|
+DMA_ch_testBench=12|0*77591||0x10
+DMA_channel=12|0*78102|
+bit_cpu=12|0*118890|
+central_unit=12|0*107274||0x10
+central_unit_TestBench=12|0*21694||0x10
+data_word_memory=12|0*77095|
+de_mux=12|0*77363|
+image_fifo=12|0*78338|
+image_memory=12|0*121920|
+program_bit_memory=12|0*132579|
+program_word_memory=12|0*135123|
+scheduler_fifo=12|0*79388|
+semafor=12|0*79674||0x10
+semafor_bit_memory=12|0*79927|
+semafor_unit=12|0*80281|
+system_control=12|0*124078|
+system_control_TestBench=12|0*110654||0x10
+word_cpu=12|0*126499|

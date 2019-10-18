@@ -1,0 +1,426 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/system_control_TestBench.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP2640 No modules defined.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/system_control_TestBench.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 system_control_TestBench.v : (83, 14): Implicit net declaration, symbol IN_1 has not been declared in module system_control_TestBench.
+# Info: VCP2876 system_control_TestBench.v : (84, 12): Implicit net declaration, symbol WY has not been declared in module system_control_TestBench.
+# Info: VCP2113 Module system_control found in current working library.
+# Info: VCP2113 Module de_mux found in current working library.
+# Info: VCP2113 Module DMA_channel found in current working library.
+# Info: VCP2113 Module image_memory found in current working library.
+# Info: VCP2113 Module word_cpu found in current working library.
+# Info: VCP2113 Module bit_cpu found in current working library.
+# Info: VCP2113 Module scheduler_fifo found in current working library.
+# Info: VCP2113 Module program_word_memory found in current working library.
+# Info: VCP2113 Module program_bit_memory found in current working library.
+# Info: VCP2113 Module data_word_memory found in current working library.
+# Info: VCP2113 Module semafor_bit_memory found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 system_control_TestBench.v : (105, 10): Implicit net declaration, symbol OUT_1 has not been declared in module system_control_TestBench.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: system_control_TestBench.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/central_unit.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 central_unit.v : (87, 14): Implicit net declaration, symbol IN_1 has not been declared in module central_unit.
+# Info: VCP2876 central_unit.v : (88, 12): Implicit net declaration, symbol WY has not been declared in module central_unit.
+# Info: VCP2113 Module system_control found in current working library.
+# Info: VCP2113 Module de_mux found in current working library.
+# Info: VCP2113 Module DMA_channel found in current working library.
+# Info: VCP2113 Module image_memory found in current working library.
+# Info: VCP2113 Module word_cpu found in current working library.
+# Info: VCP2113 Module bit_cpu found in current working library.
+# Info: VCP2113 Module scheduler_fifo found in current working library.
+# Info: VCP2113 Module program_word_memory found in current working library.
+# Info: VCP2113 Module program_bit_memory found in current working library.
+# Info: VCP2113 Module data_word_memory found in current working library.
+# Info: VCP2113 Module semafor_bit_memory found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 central_unit.v : (108, 10): Implicit net declaration, symbol OUT_1 has not been declared in module central_unit.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: central_unit.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim +access +r
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: central_unit.v (90): Length of connection (4) does not match the length of port "COUNT" (5) on instance "/central_unit/SYS_CONTROL".
+# SLP: Warning: system_control_TestBench.v (87): Length of connection (4) does not match the length of port "COUNT" (5) on instance "/system_control_TestBench/SYS_CONTROL".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.5 [s]
+# SLP: Finished : 1.6 [s]
+# SLP: 0 primitives and 432 (100.00%) other processes in SLP
+# SLP: 1920 (98.92%) signals in SLP and 21 (1.08%) interface signals
+# ELAB2: Elaboration final pass complete - time: 2.1 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6864 kB (elbread=1280 elab2=5450 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu\src\wave.asdb
+#  13:47, wtorek, 20 sierpnia 2019
+#  Simulation has been initialized
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/central_unit.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 central_unit.v : (87, 14): Implicit net declaration, symbol IN_1 has not been declared in module central_unit.
+# Info: VCP2876 central_unit.v : (88, 12): Implicit net declaration, symbol WY has not been declared in module central_unit.
+# Info: VCP2113 Module system_control found in current working library.
+# Info: VCP2113 Module de_mux found in current working library.
+# Info: VCP2113 Module DMA_channel found in current working library.
+# Info: VCP2113 Module image_memory found in current working library.
+# Info: VCP2113 Module word_cpu found in current working library.
+# Info: VCP2113 Module bit_cpu found in current working library.
+# Info: VCP2113 Module scheduler_fifo found in current working library.
+# Info: VCP2113 Module program_word_memory found in current working library.
+# Info: VCP2113 Module program_bit_memory found in current working library.
+# Info: VCP2113 Module data_word_memory found in current working library.
+# Info: VCP2113 Module semafor_bit_memory found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 central_unit.v : (108, 10): Implicit net declaration, symbol OUT_1 has not been declared in module central_unit.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: central_unit.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/system_control_TestBench.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 system_control_TestBench.v : (83, 14): Implicit net declaration, symbol IN_1 has not been declared in module system_control_TestBench.
+# Info: VCP2876 system_control_TestBench.v : (84, 12): Implicit net declaration, symbol WY has not been declared in module system_control_TestBench.
+# Info: VCP2113 Module system_control found in current working library.
+# Info: VCP2113 Module de_mux found in current working library.
+# Info: VCP2113 Module DMA_channel found in current working library.
+# Info: VCP2113 Module image_memory found in current working library.
+# Info: VCP2113 Module word_cpu found in current working library.
+# Info: VCP2113 Module bit_cpu found in current working library.
+# Info: VCP2113 Module scheduler_fifo found in current working library.
+# Info: VCP2113 Module program_word_memory found in current working library.
+# Info: VCP2113 Module program_bit_memory found in current working library.
+# Info: VCP2113 Module data_word_memory found in current working library.
+# Info: VCP2113 Module semafor_bit_memory found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 system_control_TestBench.v : (105, 10): Implicit net declaration, symbol OUT_1 has not been declared in module system_control_TestBench.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: system_control_TestBench.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+asim +access +r
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.7 [s]
+# SLP: Finished : 0.8 [s]
+# SLP: 0 primitives and 432 (100.00%) other processes in SLP
+# SLP: 1920 (98.92%) signals in SLP and 21 (1.08%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.9 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6864 kB (elbread=1280 elab2=5450 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu\src\wave.asdb
+#  13:50, wtorek, 20 sierpnia 2019
+#  Simulation has been initialized
+# 52 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+# 14 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+# 14 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/program_bit_memory.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/program_bit_memory.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/bit_cpu.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/image_memory.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/system_control.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 system_control.v : (45, 19): Implicit net declaration, symbol END_CYCLE has not been declared in module system_control.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/word_cpu.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/program_bit_memory.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/program_bit_memory.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/program_word_memory.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2000 program_word_memory.v : (28, 40): Syntax error. Unexpected token: ;.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work plc_cpu $dsn/src/program_word_memory.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: system_control_TestBench central_unit central_unit_TestBench DMA_ch_testBench semafor.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim +access +r
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'system_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 2.3 [s]
+# SLP: Finished : 3.5 [s]
+# SLP: 0 primitives and 432 (100.00%) other processes in SLP
+# SLP: 1926 (98.92%) signals in SLP and 21 (1.08%) interface signals
+# ELAB2: Elaboration final pass complete - time: 3.9 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6867 kB (elbread=1280 elab2=5453 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu\src\wave.asdb
+#  18:25, wtorek, 20 sierpnia 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'system_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 432 (100.00%) other processes in SLP
+# SLP: 1926 (98.92%) signals in SLP and 21 (1.08%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6867 kB (elbread=1280 elab2=5453 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu\src\wave.asdb
+#  18:25, wtorek, 20 sierpnia 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+# 11 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+# 11 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/My_Designs_active_HDL/jednostka_centralna_2/plc_cpu/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+endsim
+# VSIM: Simulation has finished.

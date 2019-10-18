@@ -1,0 +1,19 @@
+[Files List]
+D:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/semafor_unit.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/semafor_bit_memory.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/data_word_memory.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/program_bit_memory.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/program_word_memory.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/scheduler_fifo.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/bit_cpu.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/word_cpu.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/image_memory.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/DMA_channel.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/de_mux.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/system_control.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/system_control_TestBench.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/semafor.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/central_unit_TestBench.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/central_unit.v=S
+d:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu/src/DMA_ch_testBench.v=S

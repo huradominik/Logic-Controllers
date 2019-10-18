@@ -1,0 +1,37 @@
+Active-HDL 10.5.217.6767 2019-08-20 18:25:52
+
+Elaboration top modules:
+Verilog Module                DMA_ch_testBench
+Verilog Module                central_unit
+Verilog Module                central_unit_TestBench
+Verilog Module                semafor
+Verilog Module                system_control_TestBench
+
+
+------------------------------------------------------------------------------------------
+Verilog Module           | Library | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------
+central_unit             | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+central_unit_TestBench   | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+semafor                  | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+system_control_TestBench | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+DMA_ch_testBench         | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+image_memory             | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+DMA_channel              | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+de_mux                   | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+system_control           | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+word_cpu                 | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+bit_cpu                  | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+scheduler_fifo           | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+program_word_memory      | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+program_bit_memory       | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+data_word_memory         | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+semafor_bit_memory       | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+semafor_unit             | plc_cpu |      | 10.5.217.6767 (Windows) | -O2 -sv2k12
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Library                  | Comment
+------------------------------------------------------------------------------------------
+plc_cpu                  | None
+------------------------------------------------------------------------------------------

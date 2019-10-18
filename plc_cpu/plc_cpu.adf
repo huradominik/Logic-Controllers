@@ -1,0 +1,87 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=plc_cpu
+
+[Library]
+plc_cpu=.\plc_cpu\plc_cpu.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=D:\My_Designs_active_HDL\jednostka_centralna_2\plc_cpu\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+plc_cpu=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/bit_cpu.v=-1
+/data_word_memory.v=-1
+/de_mux.v=-1
+/DMA_ch_testBench.v=-1
+/DMA_channel.v=-1
+/image_fifo.v=-1
+/image_memory.v=-1
+/mplc_logic_il.v=-1
+/program_bit_memory.v=-1
+/program_word_memory.v=-1
+/scheduler_fifo.v=-1
+/semafor.v=-1
+/semafor_bit_memory.v=-1
+/semafor_unit.v=-1
+/system_control.v=-1
+/system_control_TestBench.v=-1
+/word_cpu.v=-1
+/central_unit.v=-1
+
+[Files.Data]
+.\src\bit_cpu.v=Verilog Source Code
+.\src\data_word_memory.v=Verilog Source Code
+.\src\de_mux.v=Verilog Source Code
+.\src\DMA_ch_testBench.v=Verilog Source Code
+.\src\DMA_channel.v=Verilog Source Code
+.\src\image_fifo.v=Verilog Source Code
+.\src\image_memory.v=Verilog Source Code
+.\src\mplc_logic_il.v=Verilog Source Code
+.\src\program_bit_memory.v=Verilog Source Code
+.\src\program_word_memory.v=Verilog Source Code
+.\src\scheduler_fifo.v=Verilog Source Code
+.\src\semafor.v=Verilog Source Code
+.\src\semafor_bit_memory.v=Verilog Source Code
+.\src\semafor_unit.v=Verilog Source Code
+.\src\system_control.v=Verilog Source Code
+.\src\system_control_TestBench.v=Verilog Source Code
+.\src\word_cpu.v=Verilog Source Code
+.\src\central_unit.v=Verilog Source Code
+
